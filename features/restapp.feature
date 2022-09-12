@@ -22,7 +22,7 @@ Feature: Testing the REST application
         Given That a user is on the url "http://localhost:8080/index.html"
         When The user enters the item _id "<_id>", name "<name>", description "<description>", and price "<price>" into the UPDATE section
         And The user clicks the PUT button
-        And The user enters the item _id "<id>" into the GET ONE section
+        And The user enters the item _id "<_id>" into the GET ONE section
         And The user clicks the GET ONE button
         Then The READ ONE section will populate with JSON containing _id "<_id>", name "<name>", description "<description>", and price "<price>"
         Examples:
@@ -33,7 +33,7 @@ Feature: Testing the REST application
         Given That a user is on the url "http://localhost:8080/index.html"
         When The user enters the item _id "<_id>" into the DELETE section
         And The user clicks the DELETE button
-        And The user enters the item _id "<id>" into the GET ONE section
+        And The user enters the item _id "<_id>" into the GET ONE section
         And The user clicks the GET ONE button
         Then The READ ONE section will be empty
         Examples:
