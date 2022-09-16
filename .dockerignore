@@ -1,0 +1,7 @@
+./documentation/
+./kubernetes/
+./webdrivers/
+
+nginx.conf
+.gitignore
+README.md
